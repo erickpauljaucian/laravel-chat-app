@@ -1,0 +1,18 @@
+composer create-project laravel/laravel app-name
+
+composer require laravel/ui
+php artisan ui vue      --> for just installing Vue.
+php artisan ui vue --auth       --> for scaffolding out the auth views.
+npm install && npm run dev
+
+php artisan serve
+php artisan make:model Session
+
+php artisan migrate
+composer require laravel/ui
+php artisan ui vue --auth
+
+php artisan db:seed
+php artisan db:seed --class=DatabaseSeeder
+
+php artisan make:event SessionEvent
