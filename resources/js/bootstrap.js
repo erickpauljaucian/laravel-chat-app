@@ -28,9 +28,9 @@ window.Echo = new Echo({
     broadcaster: 'pusher',
     key: 'app_key',
     cluster: 'mt1',
-    encrypted: true,
-    forceTLS: true,
-    wsHost: 'websockets.erickdelrey.rocks',
+    encrypted: false,
+    forceTLS: false,
+    wsHost: '127.0.0.1',
     wsPort: 6001,
     wssPort: 6001,
     disableStats: true
